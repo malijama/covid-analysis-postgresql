@@ -1,0 +1,47 @@
+# Fichiers de base de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers CSV de données brutes (si volumineux)
+# Décommenter si vous ne voulez pas versionner les données
+# *.csv
+# data/
+
+# Fichiers de sauvegarde PostgreSQL
+*.sql.backup
+*.backup
+*.dump
+
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers système Linux
+*~
+
+# Fichiers d'éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+temp/
+tmp/
+
+# Fichiers de configuration locaux
+config.local.ini
+.env
+credentials.json

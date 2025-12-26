@@ -1,0 +1,12 @@
+# Dépendances Python pour le projet d'analyse COVID-19
+
+# Manipulation de données
+pandas>=2.0.0
+
+# Connexion à PostgreSQL
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Optionnel : pour exécuter le notebook
+jupyter>=1.0.0
+notebook>=7.0.0
